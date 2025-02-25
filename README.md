@@ -39,3 +39,5 @@ $ docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
 ```
 
 You can then upload your own image at `http://localhost:1344/upload` and view it at `http://localhost:1344/media/IMAGE_FILE_NAME`
+
+*If necessary utilize port forwarding*
